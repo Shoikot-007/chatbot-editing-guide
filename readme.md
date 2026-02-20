@@ -1,4 +1,4 @@
-# 📝 Holly's AI Chatbot - Easy Editing Guide for Non-Coders
+# 📝 FAQ Chatbot - Easy Editing Guide for Non-Coders
 
 ## Table of Contents
 
@@ -40,16 +40,16 @@ Your chatbot stores all questions and answers in a single file. Think of it like
 
    ⚠️ **DO NOT use Microsoft Word or Google Docs** - they add hidden formatting that breaks code!
 
-2. Your chatbot file: `holly-chatbot-embed.html`
+2. I've created a landing page in Kajabi called "FAQ Chatbot." If you open it in edit mode, you'll find the chatbot along with the full code. Kindly copy the entire code, save it locally, and name the file `chatbot.html`
 
 3. A backup copy (always make a copy before editing!)
 
 ### Making a Backup:
 
-1. Right-click on `holly-chatbot-embed.html`
+1. Right-click on `chatbot.html`
 2. Click "Copy"
 3. Click "Paste" in the same folder
-4. You'll now have `holly-chatbot-embed - Copy.html` as a backup
+4. You'll now have `chatbot - Copy.html` as a backup
 5. If something goes wrong, you can always go back to this backup
 
 ---
@@ -58,7 +58,7 @@ Your chatbot stores all questions and answers in a single file. Think of it like
 
 ### Step 1: Open Your File
 
-1. Right-click on `holly-chatbot-embed.html`
+1. Right-click on `chatbot.html`
 2. Choose "Open With" → Select your text editor (Notepad++, Sublime Text, or VS Code)
 3. **Don't double-click!** That opens it in a web browser, not for editing
 
@@ -445,9 +445,9 @@ When adding a new question, the previous question MUST end with `},` not just `}
 
 ### Step 2: Open in Browser
 
-1. Find your file in the folder
-2. **Double-click** the file to open it in a browser
-3. The chatbot should load
+1. Copy the entire code you just saved and replace the existing code on the FAQ Chatbot page with it. Then click Save.
+2. Click Preview to view the updated version.
+3. The chatbot should load.
 
 ### Step 3: Test Your Changes
 
@@ -462,29 +462,6 @@ When adding a new question, the previous question MUST end with `},` not just `}
 1. Click on the category you assigned it to
 2. Look for your question in the list
 3. Click it and see if the answer shows up correctly
-
-### Step 4: Check for Errors
-
-**If the chatbot doesn't load or looks broken:**
-
-1. Right-click on the page
-2. Click "Inspect" or "Inspect Element"
-3. Click the "Console" tab
-4. Look for red error messages
-
-**Common error messages and fixes:**
-
-**Error: "Unexpected token"**
-
-- You probably deleted a comma or quote
-- Go back and check your commas
-
-**Error: "Unterminated string"**
-
-- You probably deleted a closing quote or backtick
-- Check all your quotes match up
-
-**If stuck:** Restore your backup and try again slowly
 
 ---
 
@@ -578,26 +555,6 @@ question: "What is the best way?",
 ```javascript
 question: "What\'s the best way?",
 ```
-
----
-
-## Need More Help?
-
-### Before Contacting Support:
-
-1. **Try restoring your backup** - This often solves everything
-2. **Check the Console for errors** - Right-click page → Inspect → Console tab
-3. **Compare your changes** to the examples in this guide
-4. **Make sure you saved the file** after editing
-
-### When Contacting Support:
-
-Include this information:
-
-- What you were trying to do (edit/add question)
-- What happened (error message, blank screen, etc.)
-- Screenshot of the Console errors (if any)
-- Which question number you were working on
 
 ---
 
